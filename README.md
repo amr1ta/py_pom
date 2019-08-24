@@ -14,5 +14,5 @@ day1 - POM + Unittest
 day2 - Separate locators, Explicit Wait  
 day3 - Reuse Page Object functions in Unittest  
 day4 - Generate HTML reports  
-day5 - Use configparser to read properties file 
+day5 - Use configparser to read properties file  
 day6 - Use Behave instead of Unittest  
