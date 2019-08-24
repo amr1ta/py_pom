@@ -12,4 +12,5 @@ Day0 - Baby Steps
 Day1 - POM + Unittest  
 Day2 - Separate locators, Explicit Wait  
 Day3 - Page Factory to initialize Unittest  
-Day4 - Use Behave instead of Unittest  
+Day4 - Generate HTML reports  
+Day5 - Use Behave instead of Unittest  

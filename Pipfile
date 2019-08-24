@@ -10,6 +10,7 @@ behave = "*"
 selenium = "*"
 webdriver-manager = "*"
 pyhamcrest = "*"
+html-testrunner = "*"
 
 [requires]
 python_version = "3.6"
