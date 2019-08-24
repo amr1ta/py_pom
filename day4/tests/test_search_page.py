@@ -16,4 +16,4 @@ class TestSearchPage(TestTemplate):
 
         
 if __name__ == "__main__":
-    unittest.main(testRunner = HtmlTestRunner.HTMLTestRunner(output = 'reports'))
+    unittest.main(testRunner = HtmlTestRunner.HTMLTestRunner(output = 'day4/reports'))
