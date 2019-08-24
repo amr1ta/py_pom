@@ -7,10 +7,12 @@
 * pipenv shell
 * cd to any day's directory
 * Run python -m unittest
+* day4 generates reports - python day4/tests/test_search_page.py
 
-Day0 - Baby Steps  
-Day1 - POM + Unittest  
-Day2 - Separate locators, Explicit Wait  
-Day3 - Reuse Page Object functions in Unittest  
-Day4 - Generate HTML reports  
-Day5 - Use Behave instead of Unittest  
+day0 - Baby Steps  
+day1 - POM + Unittest  
+day2 - Separate locators, Explicit Wait  
+day3 - Reuse Page Object functions in Unittest  
+day4 - Generate HTML reports  
+day5 - Use configparser to read properties file 
+day6 - Use Behave instead of Unittest  
