@@ -11,6 +11,7 @@ selenium = "*"
 webdriver-manager = "*"
 pyhamcrest = "*"
 html-testrunner = "*"
+configparser = "*"
 
 [requires]
 python_version = "3.6"
