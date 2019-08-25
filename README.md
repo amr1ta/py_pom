@@ -7,7 +7,7 @@
 * pipenv shell
 * cd to any day's directory
 * Run python -m unittest
-* day4 generates reports - python day4/tests/test_search_page.py
+* day4 - to generate HTML - python day4/reportGen.py
 
 day0 - Baby Steps  
 day1 - POM + Unittest  
