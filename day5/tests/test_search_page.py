@@ -1,10 +1,7 @@
 from pages.home_page import HomePage
 from pages.search_page import SearchPage
-import unittest
-import HtmlTestRunner
-from pathlib import Path
 
-from test_template import TestTemplate
+from tests.test_template import TestTemplate
 
 class TestSearchPage(TestTemplate):
 
@@ -14,9 +11,3 @@ class TestSearchPage(TestTemplate):
         home_page.search()
         result = SearchPage(self._driver)
         assert result.heading_text() == "Design pattern"
-
-        
-if __name__ == "__main__":
-    base_path = Path(__file__).parent
-    reportDir = (base_path / 'reports').resolve()
-    unittest.main(testRunner = HtmlTestRunner.HTMLTestRunner(output = reportDir))

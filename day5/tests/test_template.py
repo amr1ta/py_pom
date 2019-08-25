@@ -2,7 +2,7 @@ import unittest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.base_page import BasePage
-from read_config import read_configfile
+from tests.read_config import read_configfile
 
 
 class TestTemplate(unittest.TestCase):

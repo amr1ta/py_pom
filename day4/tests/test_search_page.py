@@ -1,7 +1,5 @@
 from pages.home_page import HomePage
 from pages.search_page import SearchPage
-import unittest
-import HtmlTestRunner
 
 from tests.test_template import TestTemplate
 
