@@ -3,7 +3,7 @@ from pages.search_page import SearchPage
 import unittest
 import HtmlTestRunner
 
-from test_template import TestTemplate
+from tests.test_template import TestTemplate
 
 class TestSearchPage(TestTemplate):
 
@@ -13,7 +13,3 @@ class TestSearchPage(TestTemplate):
         home_page.search()
         result = SearchPage(self._driver)
         assert result.heading_text() == "Design pattern"
-
-        
-if __name__ == "__main__":
-    unittest.main(testRunner = HtmlTestRunner.HTMLTestRunner(output = 'day4/reports'))
