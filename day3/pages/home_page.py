@@ -1,10 +1,11 @@
 from pages.base_page import BasePage
-from pages.locators import HomePageLocators
 
 class HomePage(BasePage):
+    SEARCH_CONTAINER = 'searchInput'
+    SEARCH_BUTTON = 'searchButton'
 
     def set_search_query(self, query):
-        self.find_element(*HomePageLocators.SEARCH_CONTAINER).send_keys(query)
+        self._driver.find_element_by_id(HomePage.SEARCH_CONTAINER).send_keys(query)
 
     def search(self):
-        self.find_element(*HomePageLocators.SEARCH_BUTTON).click()
+        self._driver.find_element_by_id(HomePage.SEARCH_BUTTON).click()

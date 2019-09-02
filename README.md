@@ -6,13 +6,14 @@
 * pipenv install
 * pipenv shell
 * cd to any day's directory
-* Run python -m unittest
-* day4 - to generate HTML - python day4/reportGen.py
+* Run tests.py or python -m unittest
 
 day0 - Baby Steps  
-day1 - POM + Unittest  
-day2 - Separate locators, Explicit Wait  
-day3 - Reuse Page Object functions in Unittest  
-day4 - Generate HTML reports  
-day5 - Use configparser to read properties file  
-day6 - Use Behave instead of Unittest  
+day1 - Implement initial POM  
+day2 - Separate pages for POM, tests structured in a class  
+day3 - Implement unittest  
+day4 - Separate locators, Explicit Wait  
+day5 - Move reusable test functions to Page Objects  
+day6 - Generate HTML reports  
+day7 - Use configparser to read properties file  
+day8 - Use Behave (type behave to run)  

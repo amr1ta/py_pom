@@ -1,7 +1,7 @@
 from pages.base_page import BasePage
-from pages.locators import SearchPageLocators
 
 class SearchPage(BasePage):
+    HEADING = 'firstHeading'
 
     def heading_text(self):
-        return self.find_element(*SearchPageLocators.HEADING).text
+        return self._driver.find_element_by_id(SearchPage.HEADING).text
