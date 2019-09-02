@@ -1,5 +1,8 @@
 # Python Page Object Model Framework from Scratch
 
+## Prerequisites
+Python3 with pipenv
+
 ## To Run
 * Clone repo
 * Open terminal and cd to repo
