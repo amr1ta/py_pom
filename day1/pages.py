@@ -1,3 +1,9 @@
+"""
+    1. create a file with pages classes
+    2. each pages class contains the locators of the page and
+    functions for each action done on the page
+"""
+
 class BasePage():
     def __init__(self, driver):
         self._driver = driver
